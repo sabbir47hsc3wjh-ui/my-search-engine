@@ -1,0 +1,7 @@
+# SearxNG settings for Common Crawl
+use_default_settings: true
+engines:
+  - name: commoncrawl
+    engine: common_crawl
+    shortcut: cc
+    timeout: 5.0
