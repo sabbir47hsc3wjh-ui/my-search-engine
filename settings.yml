@@ -1,6 +1,3 @@
-# SearXNG Settings for Maumachi Search
-use_default_settings: true
-
 server:
   base_url: https://my-search-engine-cc.onrender.com/
   method: "GET"
@@ -11,10 +8,3 @@ engines:
     disabled: false
   - name: bing
     disabled: true
-  - name: duckduckgo
-    disabled: true
-  - name: commoncrawl
-    engine: commoncrawl
-    shortcut: cc
-    timeout: 5.0
-
