@@ -1,7 +1,14 @@
+# SearXNG Settings for Maumachi Search
 use_default_settings: true
+
+server:
+  base_url: https://my-search-engine-cc.onrender.com/
+  method: "GET"
+  cors: true
+
 engines:
   - name: google
-    disabled: true
+    disabled: false
   - name: bing
     disabled: true
   - name: duckduckgo
@@ -10,3 +17,4 @@ engines:
     engine: commoncrawl
     shortcut: cc
     timeout: 5.0
+
